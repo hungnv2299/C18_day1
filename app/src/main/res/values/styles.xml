@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultTextInputLayout">
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleContentDescription">Value</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DefaultEditText">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:hint">Value</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/default_edittext_background</item>
+    </style>
+
+    <style name="FocusEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:hint">Value</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/focus_edittext_background</item>
+    </style>
+
+    <style name="FocusFilledEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:hint">Value</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/focus_edittext_background</item>
+    </style>
+
+    <style name="FilledEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">Value</item>
+        <item name="android:background">@drawable/filled_edittext_background</item>
+    </style>
+
+    <style name="ErrorEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:hint">Value</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/error_edittext_background</item>
+    </style>
+
+    <style name="SuccessEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:hint">Value</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/success_edittext_background</item>
+    </style>
+
+    <style name="DeactiveEditText" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:hint">Value</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/deactive_edittext_background</item>
+    </style>
+
+</resources>
